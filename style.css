@@ -22,7 +22,7 @@ h2 {
     color: #202124;
 }
 
-/* Input */
+
 .input-group {
     position: relative;
     margin-top: 15px;
@@ -30,19 +30,19 @@ h2 {
 
 input {
     width: 100%;
-    padding: 14px 40px 14px 10px; /* extra space for eye icon */
+    padding: 14px 40px 14px 10px; 
     border: 1px solid #dadce0;
     border-radius: 6px;
     outline: none;
-    box-sizing: border-box; /* 🔥 FIX ALIGNMENT */
+    box-sizing: border-box;
 }
 
-/* Focus */
+
 input:focus {
     border: 2px solid #1a73e8;
 }
 
-/* Floating label */
+
 label {
     position: absolute;
     left: 10px;
@@ -54,7 +54,7 @@ label {
     transition: 0.2s;
 }
 
-/* Floating effect */
+
 input:focus + label,
 input:not(:placeholder-shown) + label {
     top: -8px;
@@ -63,7 +63,7 @@ input:not(:placeholder-shown) + label {
     color: #1a73e8;
 }
 
-/* Strength bar */
+
 .strength-bar {
     height: 4px;
     background: #e0e0e0;
@@ -77,25 +77,24 @@ input:not(:placeholder-shown) + label {
     transition: 0.3s;
 }
 
-/* Colors */
+
 .weak { background: #d93025; }
 .medium { background: #f9ab00; }
 .strong { background: #188038; }
 
-/* Text */
+
 #result {
     margin-top: 10px;
     font-size: 13px;
 }
 
-/* Feedback */
 ul {
     margin-top: 10px;
     font-size: 12px;
     color: #5f6368;
 }
 
-/* Button */
+
 button {
     margin-top: 15px;
     width: 100%;
@@ -110,7 +109,7 @@ button {
     position: absolute;
     right: 12px;
     top: 50%;
-    transform: translateY(-50%); /* 🔥 Perfect vertical alignment */
+    transform: translateY(-50%);
     cursor: pointer;
     color: #5f6368;
 }
